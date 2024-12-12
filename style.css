@@ -1,0 +1,119 @@
+.sidebar {
+    /* background-color: pink; */
+    background-color: rgba(128, 128, 128, 0.454);
+    width: 20vw;
+    font-family: "Roboto", sans-serif;
+}
+
+.sidebar nav {
+    padding: 20px;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 25px;
+    padding: 33px;
+}
+.sidebar nav li a {
+   text-decoration: none;
+   color: black;
+
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgba(128, 0, 128, 0.826); */
+    height: 58vh;
+    width: 80vm;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devpic img {
+    height: 58vh;
+    padding-left: 10px;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 40px;
+    font-family: "Space Mono", monospace;
+}
+
+.name {
+    font-size: 60px;
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+.about {
+    font-size: 40px;
+    font-family: "Abel", sans-serif;
+}
+
+.moreabout {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.buttons button {
+    /* margin-top: 150px; */
+    padding: 4px 7px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+
+}
+.contactform{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    text-align: left;
+}
+.contactform h2{
+    font-family: "Space Mono", monospace;
+}
+.contactform form div{
+   padding: 15px 0;
+   display: flex;
+   flex-direction: column;
+}
+.contactform form div{
+   width: 16vm;
+   border-radius: 5px;
+   margin: 6px 0;
+   padding: 3px;
+ }
+#emailhelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: o 5px;
+}
